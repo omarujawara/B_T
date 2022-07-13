@@ -1,3 +1,8 @@
-import os
+# set up virtual Environment
 
-os.system("python -m venv ../venv")
+import os
+import activate  #import activate module to activate environment
+os.system("python -m venv ./venv")
+
+#call activate_env function from activate module^
+activate.activate_env()
