@@ -1,3 +1,3 @@
 import os
 
-os.system("python -m venv venv")
+os.system("python -m venv ../venv")
