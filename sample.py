@@ -13,7 +13,7 @@ col3 = []
 for index, row in df.iterrows():
     sum = 0
     sum += (row["col1"] + row["col2"])
-    col3.append()
+    col3.append(sum)
     sum = 0
 # df = df.assign("col3",col3)
 df["col3"] = col3
