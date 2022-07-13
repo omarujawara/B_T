@@ -2,7 +2,7 @@ import sys
 import pandas as pd
 import numpy as np
 
-filename = argv[1]
+filename = sys.argv[1]
 df = pd.read_excel(filename)
 # df = pd.DataFrame({
 #     "col1" : [1,2],
