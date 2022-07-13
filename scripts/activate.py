@@ -7,6 +7,8 @@ if platform == "win32":
 
  #mac or linux
 if platform == "darwin" or platform == "linux" or platform == "linux2":
-    os.system("../venv/Scripts/activate.bat")
+    os.system("cd ..")
+    os.system("/venv/Scripts/activate.bat")
+
 
 os.system("pip install -r requirements.txt")
