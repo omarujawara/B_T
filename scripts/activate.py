@@ -3,7 +3,7 @@ from sys import platform
 
 #windows
 if platform == "win32":
-    os.system("..\Scripts\activate.bat")
+    os.system("..\\venv\Scripts\\activate.bat")
 
  #mac or linux
 if platform == "darwin" or platform == "linux" or platform == "linux2":
